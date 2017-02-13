@@ -4,8 +4,7 @@ const fs = require('fs');
 const faker = require('faker');
 const s = require('underscore.string')
 
-const recordCount = 10;
-
+const recordCount = process.argv[2];
 let writer = csvWriter({
     headers: [
         "Interviewers.Name",
