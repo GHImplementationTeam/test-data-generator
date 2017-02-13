@@ -87,7 +87,7 @@ for (let i = 1; i <= recordCount; i++) {
         faker.fake("{{name.lastName}}"),
         faker.fake("{{random.word}}"),
         generateSSN(),
-        Math.floor(Math.random() * 100),
+        Math.floor((Math.random() * 80) + 20),
         generateDate(),
         generateWeightedBoolean(0.9),
         //Housing
@@ -106,6 +106,7 @@ for (let i = 1; i <= recordCount; i++) {
         generateWeightedBoolean(0.5),
         pickRandomArrayElement(["Shelter", "Street, Sidewalk, or Doorway", "Car, Van or RV", "Bus or Subway", "Beach, Riverbed or Park"]),
         //Social
+        generateWeightedBoolean(0.5),
         generateWeightedBoolean(0.5),
         generateWeightedBoolean(0.5),
         generateWeightedBoolean(0.5),
