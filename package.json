@@ -1,0 +1,17 @@
+{
+  "name": "test-data-generator",
+  "version": "1.0.0",
+  "description": "Generate random intake data for Cemaritan",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Brian Loyal",
+  "license": "ISC",
+  "dependencies": {
+    "csv-write-stream": "^2.0.0",
+    "faker": "^3.1.0",
+    "sillyname": "^0.1.0",
+    "underscore.string": "^3.3.4"
+  }
+}
